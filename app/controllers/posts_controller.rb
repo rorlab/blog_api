@@ -47,4 +47,5 @@ class PostsController < ApplicationController
 
     head :no_content
   end
+
 end

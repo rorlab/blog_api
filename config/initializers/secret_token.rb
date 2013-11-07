@@ -16,4 +16,4 @@
 # Using secret_token for rails3 compatibility. Change to secret_key_base
 # to avoid deprecation warning.
 # Can be safely removed in a rails3 api-only application.
-BlogApi::Application.config.secret_token = '5ca2dbf6b46cfcff97646ff9425b0b84642bb9e4a4a30538e0be0aa3a0107ad4292aa9131e2df5547e468fdf76663c91a7c527547bb07edbf23e86e5ee84734b'
+BlogApi::Application.config.secret_key_base = '5ca2dbf6b46cfcff97646ff9425b0b84642bb9e4a4a30538e0be0aa3a0107ad4292aa9131e2df5547e468fdf76663c91a7c527547bb07edbf23e86e5ee84734b'

@@ -7,7 +7,9 @@ gem 'rails-api'
 gem 'rack-cors', :require => 'rack/cors'
 
 # works out of the box with ember-data
-gem 'active_model_serializers' 
+gem 'active_model_serializers'
+
+gem 'acts-as-taggable-on'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
